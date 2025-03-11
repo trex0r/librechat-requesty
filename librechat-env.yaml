@@ -201,4 +201,4 @@ endpoints:
       summarize: false
       summaryModel: openai/gpt-4o-mini
       modelDisplayLabel: Requesty
-      iconURL: https://app.requesty.ai/_next/image?url=%2Ffavicon.ico&w=96&q=75
+      iconURL: https://app.requesty.ai
