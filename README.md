@@ -1,17 +1,17 @@
-Copy# LibreChat Requesty Integration
+# 🚀 LibreChat Requesty Integration
 
 ## Quick Setup
 
-1. In your LibreChat `.env` file, add:
+### 1️⃣ Update Your `.env` File
+Add the following lines to your LibreChat `.env` file:
+
+```bash
 CONFIG_PATH="https://raw.githubusercontent.com/requestyai/librechat-requesty/main/librechat-env.yaml"
 REQUESTY_KEY="your_requesty_api_key_here"
+```
 
-2. Restart LibreChat
+### 2️⃣ Restart LibreChat
+Simply restart LibreChat to apply the changes.
 
-3. That's it! You can now use Requesty in LibreChat.
-
----
-
-## Need Help?
-
-Visit [Requesty.ai](https://requesty.ai/) for more information.
+### 3️⃣ You're All Set! 🎉
+Now you can use Requesty in LibreChat.
