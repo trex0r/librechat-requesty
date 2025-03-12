@@ -6,7 +6,7 @@
 Add the following lines to your LibreChat `.env` file:
 
 ```bash
-CONFIG_PATH="https://raw.githubusercontent.com/requestyai/librechat-requesty/main/librechat-env.yaml?t=12345"
+CONFIG_PATH="https://raw.githubusercontent.com/requestyai/librechat-requesty/main/librechat-env.yaml"
 REQUESTY_KEY="your_requesty_api_key_here"
 ```
 
