@@ -32,6 +32,7 @@ endpoints:
       baseURL: https://router.requesty.ai/v1
       models:
         default:
+          - smart/task
           - alibaba/qwen-max
           - alibaba/qwen-plus
           - alibaba/qwen-turbo
