@@ -47,6 +47,8 @@ endpoints:
           - anthropic/claude-3-opus-20240229
           - anthropic/claude-3-opus-latest
           - anthropic/claude-3-sonnet-20240229
+          - anthropic/claude-opus-4-20250514
+          - anthropic/claude-sonnet-4-20250514
           - cline/claude-3-5-sonnet
           - cline/claude-3-5-sonnet:alpha
           - cline/claude-3-5-sonnet:alpha-v2
