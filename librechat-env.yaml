@@ -8,17 +8,6 @@ interface:
     externalUrl: https://requesty.ai/router
     openNewTab: true
   customWelcome: "Hello there... What can i help you with?"
-  mcpServers:
-    context7:
-      command: npx
-      args:
-        - -y
-        - "@upstash/context7-mcp"
-    puppeteer:
-      command: npx
-      args:
-        - -y
-        - "@modelcontextprotocol/server-puppeteer"
 cache: true
 registration:
   socialLogins:
@@ -76,3 +65,14 @@ endpoints:
       summaryModel: openai/gpt-4o-mini
       modelDisplayLabel: Requesty
       iconURL: https://app.requesty.ai/_next/image?url=%2Ffavicon.ico&w=96&q=75
+mcpServers:
+  context7:
+    command: npx
+    args:
+      - -y
+      - "@upstash/context7-mcp"
+  puppeteer:
+    command: npx
+    args:
+      - -y
+      - "@modelcontextprotocol/server-puppeteer"
