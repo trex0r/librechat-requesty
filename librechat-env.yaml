@@ -32,21 +32,20 @@ endpoints:
       baseURL: https://router.requesty.ai/v1
       models:
         default:
+          - vertex/google/gemini-2.5-flash
+          - vertex/google/gemini-2.5-pro
+          - vertex/anthropic/claude-4-sonnet-latest
+          - anthropic/claude-opus-4-20250514
+          - novita/deepseek/deepseek-v3-0324
           - moonshot/kimi-k2-0711-preview
           - deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct
           - alibaba/qwen3-coder-plus
-          - vertex/google/gemini-2.5-flash
-          - vertex/google/gemini-2.5-pro
           - xai/grok-4
-          - vertex/anthropic/claude-4-sonnet-latest
           - deepinfra/deepseek-ai/DeepSeek-V3
           - deepinfra/Qwen/Qwen3-235B-A22B
           - novita/zai-org/glm-4.5
-          - novita/deepseek/deepseek-v3-0324
-          - anthropic/claude-opus-4-20250514
           - openai/chatgpt-4o-latest
           - openai/gpt-4o
-          - moonshot/kimi-k2-0711-preview
           - openai/gpt-4.1
         fetch: false
       titleConvo: true
