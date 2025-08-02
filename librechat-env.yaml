@@ -8,6 +8,10 @@ interface:
     externalUrl: https://requesty.ai/router
     openNewTab: true
   customWelcome: "Hello there... What can i help you with?"
+  mcpServers:
+    Context7:
+      command: npx
+      "args": ["-y", "@upstash/context7-mcp"]
 cache: true
 registration:
   socialLogins:
