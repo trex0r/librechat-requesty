@@ -21,3 +21,7 @@ This also covers openrouter. To get that working too we can set:
 OPENROUTER_KEY="x" in the .env too
 
 The sample librechat env file also covers mcp servers.
+
+Note that the .env needs to have NOTION_KEY in it, and that is set as follows:
+
+https://github.com/makenotion/notion-mcp-server?tab=readme-ov-file
