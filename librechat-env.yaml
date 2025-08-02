@@ -30,17 +30,6 @@ endpoints:
     - name: Requesty
       apiKey: ${REQUESTY_KEY}
       baseURL: https://router.requesty.ai/v1
-      mcpServers:
-        context7:
-          command: npx
-          args:
-            - -y
-            - "@upstash/context7-mcp"
-        puppeteer:
-          command: npx
-          args:
-            - -y
-            - "@modelcontextprotocol/server-puppeteer"
       models:
         default:
           - vertex/google/gemini-2.5-flash
