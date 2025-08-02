@@ -19,3 +19,5 @@ Now you can use Requesty in LibreChat.
 This also covers openrouter. To get that working too we can set:
 
 OPENROUTER_KEY="x" in the .env too
+
+The sample librechat env file also covers mcp servers.
