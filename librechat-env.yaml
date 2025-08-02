@@ -11,7 +11,9 @@ interface:
   mcpServers:
     Context7:
       command: npx
-      "args": ["-y", "@upstash/context7-mcp"]
+      args:
+        - -y
+        - "@upstash/context7-mcp"
 cache: true
 registration:
   socialLogins:
