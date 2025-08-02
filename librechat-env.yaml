@@ -59,7 +59,7 @@ endpoints:
       baseURL: https://openrouter.ai/api/v1
       models:
         default:
-          - google-vertex/global
+          - qwen/qwen3-coder
         fetch: false
       titleConvo: true
       titleModel: openai/gpt-4o-mini
