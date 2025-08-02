@@ -208,6 +208,7 @@ endpoints:
           - vertex/anthropic/claude-3-7-sonnet-latest
           - xai/grok-2-1212
           - xai/grok-2-latest
+          - moonshot/kimi-k2-0711-preview
         fetch: false
       titleConvo: true
       titleModel: openai/gpt-4o-mini
