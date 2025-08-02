@@ -6,7 +6,7 @@
 Add the following lines to your LibreChat `.env` file:
 
 ```bash
-CONFIG_PATH="https://raw.githubusercontent.com/requestyai/librechat-requesty/main/librechat-env.yaml"
+CONFIG_PATH="https://raw.githubusercontent.com/trex0r/librechat-requesty/refs/heads/main/librechat-env.yaml"
 REQUESTY_KEY="your_requesty_api_key_here"
 ```
 
@@ -15,3 +15,7 @@ Simply restart LibreChat to apply the changes.
 
 ### 3️⃣ You're All Set! 🎉
 Now you can use Requesty in LibreChat.
+
+This also covers openrouter. To get that working too we can set:
+
+OPENROUTER_KEY="x" in the .env too
