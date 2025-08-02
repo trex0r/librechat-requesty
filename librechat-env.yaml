@@ -54,18 +54,19 @@ endpoints:
       summaryModel: openai/gpt-4o-mini
       modelDisplayLabel: Requesty
       iconURL: https://app.requesty.ai/_next/image?url=%2Ffavicon.ico&w=96&q=75
-    - name: OpenRouter
-      apiKey: ${OPENROUTER_KEY}
-      baseURL: https://openrouter.ai/api/v1
+    - name: "OpenRouter"
+      # For `apiKey` and `baseURL`, you can use environment variables that you define.
+      # recommended environment variables:
+      apiKey: "${OPENROUTER_KEY}" # NOT OPENROUTER_API_KEY
+      baseURL: "https://openrouter.ai/api/v1"
       models:
-        default:
-          - qwen/qwen3-coder
-        fetch: false
+        default: ["meta-llama/llama-3-70b-instruct"]
+        fetch: true
       titleConvo: true
-      titleModel: openai/gpt-4o-mini
-      summarize: false
-      summaryModel: openai/gpt-4o-mini
-      modelDisplayLabel: OpenRouter
+      titleModel: "meta-llama/llama-3-70b-instruct"
+      # Recommended: Drop the stop parameter from the request as Openrouter models use a variety of stop tokens.
+      dropParams: ["stop"]
+      modelDisplayLabel: "OpenRouter" 
 mcpServers:
   context7:
     command: npx
