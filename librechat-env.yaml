@@ -47,7 +47,7 @@ endpoints:
           - openai/chatgpt-4o-latest
           - openai/gpt-4o
           - openai/gpt-4.1
-        fetch: false
+        fetch: true
       titleConvo: true
       titleModel: openai/gpt-4o-mini
       summarize: false
